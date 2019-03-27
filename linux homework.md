@@ -1,6 +1,6 @@
 1、以容易理解的格式列出/home目录里面所有的以d开头的文件目录的大小
 
-![img](https:////note.youdao.com/src/WEBRESOURCE60fa1346cc84dc9bd75bd01b6c57d844)
+![img](file:///Users/rimi/Desktop/linuxs/linux/屏幕快照%202019-03-26%20下午4.33.36的副本.png)
 
 2、列出/home 目录中所有以”s”开头的目录。
 
