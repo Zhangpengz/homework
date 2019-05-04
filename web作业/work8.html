@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p1901_作业</title>
+    <style>
+        #a1{
+            color: red;
+        }
+        #s1{
+            border: 1px red dashed;
+        }
+        #a2 p {
+            color: green;
+        }
+        .p1901>div> p{
+            color: yellow;
+        }
+        #d1:hover{
+            color: red;
+        }
+        .ppp{
+            display: inline-block;
+        }
+        #t1{
+            border: 1px solid red;
+            height: 100px;
+            width: 300px;
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <article id="a1">
+        <strong>
+        <header>Docker的应用场景</header>
+        <section>
+
+            Web 应用的自动化打包和发布。
+
+        </section>
+
+        <section>
+
+            自动化测试和持续集成、发布。
+
+        </section>
+
+        <section id="s1">
+            在服务型环境中部署和调整数据库或其他的后台应用。
+
+
+        </section>
+        <section>
+        从头编译或者扩展现有的OpenShift或Cloud Foundry平台来搭建自己的PaaS环境。
+        </section>
+
+        </strong>
+
+    </article>
+
+
+</section>
+
+<section id="section3">
+    <article id="a2" class="p1901">
+        <header>Docker 的优点</header>
+        <div>
+            <div>
+
+                <p>
+                    1、简化程序：
+
+                </p>
+
+
+            </div>
+
+            <p>
+
+                Docker 让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux
+                机器上，便可以实现虚拟化。Docker改变了虚拟化的方式，使开发者可以直接将自己的成果放入Docker中进行管理。方便快捷已经是 Docker的最大优势，过去需要用数天乃至数周的
+                任务，在Docker容器的处理下，只需要数秒就能完成。
+            </p>
+
+
+        </div>
+
+
+        <div>
+
+            <p>
+                2、避免选择恐惧症：
+
+            </p>
+
+
+        </div>
+
+
+    </article>
+
+
+</section>
+
+
+<section>
+
+    <article>
+        <div id="d1">
+
+        Docker 允许你在容器内运行应用程序， 使用 docker run 命令来在容器内运行一个应用程序。
+
+        输出Hello world<br>
+
+
+        <code>runoob@runoob:~$ docker run ubuntu:15.10 /bin/echo "Hello world"</code>
+        </div>
+
+
+        <div>
+            以上命令意思可以解释为：
+            <div>
+            <li class="ppp">
+            <div>
+                Docker 以 ubuntu15.10 镜像创建一
+            </div>
+            </li>
+            <li class="ppp">
+            <div>
+
+                个新容器，然后在容器里执行 bin/echo "Hello world"，然后输出结果
+            </div>
+            </li>
+            </div>
+        </div>
+
+    </article>
+
+
+</section>
+
+<div id="t1">
+    <form>账户：
+        <input type="text" placeholder="请输入账号">
+    </form>
+    <form>密码：
+        <input type="text" placeholder="请输入密码">
+    </form>
+    <button type="button">请点击确认</button>
+    <br>
+    <button type="submit">提交</button>
+    <button type="button">重置</button>
+
+</div>
+</body>
+
+</html>

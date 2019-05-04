@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实现三级下拉菜单</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        li{
+            border: 1px solid #0001EE;
+            width: 200px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            font-size: 25px;
+            border-radius: 8px;
+            background: greenyellow;
+            color: blue;
+        }
+        #l1{
+            position: relative;
+        }
+        #l1:hover #u1{
+            visibility: visible;
+        }
+        #l1:hover #u3{
+         margin-top: 162px;
+        }
+        #u1{
+            position: absolute;
+            left: 20px;
+            visibility: hidden;
+        }
+        #u2{
+            position: absolute;
+            left: 80px;
+            opacity: 0;
+        }
+        #u3{
+            margin-left: -41px;
+        }
+        #l2:hover #u3{
+            margin-top: 162px;
+        }
+        #l2:hover #u2{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li id="l1">章节
+        <ul id="u1">
+            <li id="l2">python
+                <ul id="u2">
+                    <li>GUI</li>
+                    <li>SOCKET</li>
+                </ul>
+            </li>
+            <li>go</li>
+        </ul>
+        <ul id="u3">
+         <li id="m1">问答</li>
+    <li id="s1">笔记</li>
+    <li id="p1">提问</li>
+            </ul>
+    </li>
+
+</ul>
+</body>
+</html>

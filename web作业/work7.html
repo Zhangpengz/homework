@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #v0{
+            position: relative;
+            width: 800px;
+            height: 700px;
+            text-align: center;
+        }
+        #i2{
+            position: absolute;
+            height: 120px;
+            width: 360px;
+            left: 230px;
+            top: 330px;
+        }
+        #t1{
+            position: absolute;
+            height: 60px;
+            top: 500px;
+            left: 230px;
+
+        }
+        #v1{
+            position: absolute;
+
+            top: 600px;
+            width: 800px;
+        }
+        #p1{
+            position: absolute;
+            background: white;
+            left: 380px;
+            top: 473px;
+        }
+        #p2{
+            position: absolute;
+            background: white;
+            left: 380px;
+            top: 580px;
+        }
+        #f1{
+            position: absolute;
+
+            top: 680px;
+            left: 400px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="v0">
+    <form>账号：
+        <input type="text" placeholder="请输入账号" >（必填）
+    </form>
+    <br>
+    <form>密码：
+        <input type="text" placeholder="请输入密码">（必填）
+    </form>
+    <br>
+    <form>性别：
+        保密<input type="radio" name="right" value="1">
+        男<input type="radio" name="right" value="2">
+        女<input type="radio" name="right" value="3">(选填)
+    </form>
+    <br>
+    <form>邮箱：
+        <input type="text" placeholder="请输入邮箱地址">（选填）
+    </form>
+    <br>
+    <form>电话：
+        <input type="text" placeholder="请输入联系电话">（必填）
+    </form>
+    <br>
+    <form>
+        <select>
+            <option>互联网／电子商务</option>
+        </select>
+    </form>
+    <br>
+    <form>
+        <input type="text" value="重庆">
+    </form>
+    <br>
+    <form>
+        <input type="text" placeholder="请输入您的个性签名，不超过120字符" id="i2">
+    </form>
+
+    <table border="1" cellspacing="0" id="t1">
+        <tr>
+            <td>
+                身高：<input type="text">
+                体重：<input type="text">
+            </td>
+
+        </tr>
+    </table>
+
+    <p id="p1">健康信息</p>
+    <p id="p2">兴趣爱好</p>
+
+    <div id="v1">
+        <hr>
+        <strong>
+        游泳<input type="checkbox" name="f" value="1">
+        唱歌<input type="checkbox" name="f" value="1">
+        摄影<input type="checkbox" name="f" value="1">
+        运动<input type="checkbox" name="f" value="1">
+        游戏<input type="checkbox" name="f" value="1">
+        撸代码<input type="checkbox" name="f" value="1">
+        </strong>
+        <hr>
+    </div>
+    <form id="f1">
+        <button type="button"  name="ok" >注册</button>
+        <button type="button"  name="not">取消</button>
+    </form>
+</div>
+</body>
+</html>
